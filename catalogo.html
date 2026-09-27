@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <h1>Restaurantes y productos</h1>
+
+        <div class="producto">
+            <h3>Hamburguesa</h3>
+            <p>$80</p>
+            <button onclick="agregarCarrito('Hamburguesa', 80)">
+                Agregar
+            </button>
+        </div>
+
+        <div class="producto">
+            <h3>Pizza</h3>
+            <p>$120</p>
+            <button onclick="agregarCarrito('Pizza', 120)">
+                Agregar
+            </button>
+        </div>
+
+        <div class="producto">
+            <h3>Tacos</h3>
+            <p>$70</p>
+            <button onclick="agregarCarrito('Tacos', 70)">
+                Agregar
+            </button>
+        </div>
+
+        <br>
+
+        <a href="carrito.html">Ver carrito</a>
+
+    </div>
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>
